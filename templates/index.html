@@ -1,0 +1,887 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="../static/css/jaguar.css">
+  <title>Jaguar</title>
+</head>
+
+<body>
+
+
+  <!-- header -->
+  <div class="border">
+    <header class="p-3 text-bg-dark" >
+      <div class="container" >
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+          <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+            <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
+              <use xlink:href="#bootstrap"></use>
+            </svg>
+          </a>
+
+          <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+            <img class="logo" src="../static/icons/Jaguar-Logo-PNG-File.png" alt="Jaguar">
+            <li><a href="#feature" class="nav-link px-2 text-white" style="font-size: 22px;">Features</a></li>
+            <li><a href="https://www.findmeacar.in/pricing_pdf/jaguar-cars-price-in-india.pdf?_ga=2.66659822.1543454754.1663765427-450245648.1663765427" class="nav-link px-2 text-white" style="font-size: 22px;">Purchases</a></li>
+            <li><a href="#vehicle" class="nav-link px-2 text-white" style="font-size: 22px;">Vehicles</a></li>
+            <li><a href="#explore" class="nav-link px-2 text-white" style="font-size: 22px;">Explore</a></li>
+            <li><a href="#contact" class="nav-link px-2 text-white" style="font-size: 22px;">Contact Us</a></li>
+          </ul>
+
+          <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+            <input type="search" class="form-control ser  form-control-dark text-bg-dark" placeholder="Search..."
+              aria-label="Search">
+          </form>
+
+          <div class="text-end">
+            <a href="https://www.jaguar.in/retailer-locator/index.html"><img class="loc" src="../static/icons/loc.png" alt=""
+                width="40px" height="40px"></a>
+            <!-- <button type="button" class="btn btn-warning">Sign-up</button>  -->
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+
+    <!-- video -->
+    <video muted autoplay id="myVideo" height="570px" width="100%">
+      <source src="../static/videos/Jaguar F-PACE SVR Edition 1988.mp4" type="video/mp4">
+  
+    </video>
+    <div class="content">
+      <h1>Jaguar F-PACE SVR Edition 1988</h1>
+      <p>Introducing new Jaguar F-PACE SVR: New pinnacle of the performance SUV range is quicker off the line, more
+        agile,
+        features the latest dynamic exterior design and a more luxurious and refined interior finish
+        mutat oblique delicatissimi pro.</p>
+      <button id="myBtn" onclick="myFunction()">Pause</button>
+    </div>
+    <br>
+    <script>
+      var video = document.getElementById("myVideo");
+      var btn = document.getElementById("myBtn");
+
+      function myFunction() {
+        if (video.paused) {
+          video.play();
+          btn.innerHTML = "Pause";
+        } else {
+          video.pause();
+          btn.innerHTML = "Play";
+        }
+      }
+    </script>
+
+    <!-- body -->
+
+    <div class="slide" id="feature">
+      <div id="carouselExampleDark" class="carousel carousel-white slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
+            aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img src="../static/images/F Pace co.jpg" class="car1 d-block" alt="..." height="680px" width="100%">
+            <div class="carousel-caption d-none d-md-block divi">
+              <b>
+                <h4> JAGUAR F-PACE</h4>
+              </b>
+              <p>Luxury performance SUV offering practically and efficicency.</p>
+              <a href="https://www.jaguar.in/jaguar-range/f-pace/index.html"><button class="bot">EXPLORE THIS VEHICLE</button></a>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="../static/images/Semiconductor.jpg" class="car1 d-block" alt="..." height="680px" width="100%">
+            <div class="carousel-caption d-none d-md-block divi">
+              <b>
+                <h4>SEMICONDUCTOR SUPPLY IMPACTS CAR INDUSTRY
+              </b></h4>
+              <p>DELIVERY TIME EXTENDED. </p>
+              <a href="https://www.jaguar.in/build-yours/index.html"><button class="bot">SECURE YOUR ORDER NOW</button></a>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="../static/images/Jaguar XF.jpg" class="car1 d-block" alt="..." height="680px" width="100%">
+            <div class="carousel-caption d-none d-md-block divi">
+              <b>
+                <h4>JAGUAR XF</h4>
+              </b>
+              <p>Luxury business saloon with distinctive design, dynamic drive and state-of-art technologies.</p>
+              <a href="https://www.jaguar.in/jaguar-range/xf/index.html"><button class="bot">EXPLORE THIS VEHICLE</button></a>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="../static/images/F Pace SVR Edition 1988.jpg" class="car1 d-block" alt="..." height="680px" width="100%">
+            <div class="carousel-caption d-none d-md-block divi">
+              <b>
+                <h4>F-PACE SVR EDITION 1988</h4>
+              </b>
+              <p>Own one of 394.</p>
+              <a href="https://www.jaguar.in/about-jaguar/special-vehicle-operations/jaguar-f-pace-svr-edition-1988.html"><button class="bot">EXPLORE THIS VEHICLE</button></a>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- product -->
+
+    <div  id="purchase" class="pro position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+      <div class="text">
+        <div class="col-md-5 p-lg-5 mx-auto my-5">
+
+          <h1 class="display-4 fw-normal">JAGUAR F‑TYPE</h1>
+          <p class="lead fw-normal">Pulse quickening, pure Jaguar sports car.</p>
+          <a class="bot" href="https://www.jaguar.in/jaguar-range/f-type/index.html">Coming
+            soon</a>
+        </div>
+
+        <div class="product-device shadow-sm d-none d-md-block"></div>
+        <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- cars -->
+
+  
+  <div class="border">
+    <br>
+    <h1 class="find" id="vehicle">OUR VEHICLES</h1>
+    <br>
+
+    <div class="grid">
+
+      <div class="d-md-flex  flex-md-equal w-100 my-md-3 ps-md-3">
+        <div class="text-bg-dark overflow-hidden">
+          <div class="my-3 p-3">
+            <div class="flip-box">
+              <div class="flip-box-inner">
+                <div class="flip-box-front">
+                  <img src="../static/images/NEW F type R-Dynamic.jpg" class="car1 card-img-top" alt="..." height="400px"
+                    width="650px"><br>
+                  <h2 class="display-5">JAGUAR F-PACE</h2>
+                  <p class="lead">Luxury performance SUV offering practicality and efficiency.</p>
+                </div>
+                <div class="flip-box-back">
+
+                  <div class="accordion accordion-flush wi" id="accordionFlushExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                          Powertrain--2.0 l Diesel
+                        </button>
+                      </h2>
+                      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                          <ul>
+                            <li> 2.0 l Diesel
+                              2.0 l 4-cylinder Diesel Automatic 150 kW 4WD</li>
+
+                            <li> 2.0 l Petrol
+                              2.0 l 4-cylinder Petrol Automatic 184 kW AWD</li>
+                          </ul>
+
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                          Model-- R-Dynamic S
+                        </button>
+                      </h2>
+                      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">R-Dynamic S</div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseThree" aria-expanded="false"
+                          aria-controls="flush-collapseThree">
+                          Specifications
+                        </button>
+                      </h2>
+                      <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                          <ul>
+                            <li>Specification highlights</li>
+                            <li> 48.26 cm (19) Style 5038 Diamond Turned Wheels</li>
+                            <li> Premium LED headlights with signature DRL</li>
+                            <li> Four-zone climate control</li>
+                            <li> 12-way driver memory front seats with rear power recline</li>
+                            <li> Meridian™ sound system</li>
+                            <li> 3D surround camera</li>
+                            <li> Wireless device charging</li>
+                            <li> Cabin air purification plus</li>
+                            <li> Pivi Pro and 28.96 cm (11.4) Touchscreen</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+<br>
+                  <h5 class="price">Price:₹ 74.86 L <a href="https://www.jaguar.in/jaguar-range/f-pace/index.html" class="bot bt">EXPLORE THIS VEHICLE</a></h5>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <!-- 2 -->
+      <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+        <div class="bg-light  text-center overflow-hidden" style="border:1px solid black ;">
+          <div class="my-3 p-3">
+            <div class="flip-box">
+              <div class="flip-box-inner">
+                <div class="flip-box-front">
+                  <img src="../static/images/F type covertible.jpg" class="car1 card-img-top" alt="..." height="400px"
+                    width="650px"><br>
+                  <h2 class="display-5">XF SALOON R-DYNAMIC</h2>
+                  <p class="lead">Luxury business saloon with distinctive design, dynamic drive and state-of-the-art
+                    technologies.</p>
+                </div>
+
+
+                <div class="flip-box-back">
+
+                  <div class="accordion accordion-flush wi" id="accordionFlushExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                          Powertrain
+                        </button>
+                      </h2>
+                      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                          <ul>
+                            <li> 2.0 l Diesel
+                              2.0 l 4-cylinder Diesel Automatic 235 kW 4WD</li>
+
+                            <li> 2.0 l Petrol
+                              2.0 l 4-cylinder Petrol Automatic 235 kW AWD</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                          MODEL
+                        </button>
+                      </h2>
+                      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">XF SALOON R-DYNAMIC</div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseThree" aria-expanded="false"
+                          aria-controls="flush-collapseThree">
+                          Specifications
+                        </button>
+                      </h2>
+                      <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                          <ul>
+                            <li> Specification highlights</li>
+                            <li> 45.72 cm (18) Style 5105, Diamond Turned with Dark Grey</li>
+                            <li> Premium LED headlights with signature DRL</li>
+                            <li> 12‑way electric front seats with 2‑way manual headrests</li>
+                            <li> Heated, electric, power fold, memory door mirrors with approach lights and auto-dimming
+                              driver side</li>
+                            <li> 28.96 cm (11.4) Touchscreen</li>
+                            <li> Adaptive Cruise Control</li>
+                            <li> Meridian™ 3D Surround Sound System</li>
+                            <li> 3D surround camera</li>
+                            <li> Cabin air purification plus</li>
+                            <li> Pivi Pro, Click and Go integrated base unit</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <br>
+                  <h5 class="price">Price:₹ 71.60L <a href="https://www.jaguar.in/jaguar-range/xf/index.html" class="bot bt">EXPLORE THIS VEHICLE</a></h5>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 3 -->
+      <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+        <div class="bg-light  text-center overflow-hidden" style="border:1px solid black ;">
+          <div class="my-3 p-3">
+            <div class="flip-box">
+              <div class="flip-box-inner">
+                <div class="flip-box-front">
+                  <img src="../static/images/F type covertible.jpg" class="car1 card-img-top" alt="..." height="400px"
+                    width="650px"><br>
+                  <h2 class="display-5">I-PACE HSE</h2>
+                  <p class="lead">Introducing Jaguar's first all-electric performance SUV.</p>
+                </div>
+
+
+                <div class="flip-box-back">
+
+                  <div class="accordion accordion-flush wi" id="accordionFlushExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                          Powertrain--90kWh Electric
+                        </button>
+                      </h2>
+                      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                          <ul>
+                            <b>
+                              <li> 90 kWh Electric</li>
+                            </b>
+                            <li>90 kWh Electric 294 kW</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                          MODEL
+                        </button>
+                      </h2>
+                      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">HSE</div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseThree" aria-expanded="false"
+                          aria-controls="flush-collapseThree">
+                          Specifications
+                        </button>
+                      </h2>
+                      <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                          <ul>
+                            <li> Specification highlights</li>
+                            <li> 48.26 cm (19) Style 5055, diamond turned wheels</li>
+                            <li> Matrix LED headlights with signature DRL</li>
+                            <li> Electronic air suspension and adaptive dynamics</li>
+                            <li> Four-zone climate control</li>
+                            <li> 16-way heated and cooled electric front seats</li>
+                            <li> 40:20:40 folding, heated rear seats</li>
+                            <li> Meridian™ 3D Surround Sound System</li>
+                            <li> 3D surround camera</li>
+                            <li> Cabin air purification plus</li>
+                            <li> Pivi Pro, Click and Go integrated base unit</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+<br>
+                  <h5 class="price">Price:₹ 124.15 L  <a href="https://www.jaguar.in/jaguar-range/i-pace/index.html" class="bot bt">EXPLORE THIS VEHICLE</a></h5>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+      <!-- 4 -->
+
+      <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+        <div class="text-bg-dark  text-center overflow-hidden">
+          <div class="my-3 p-3">
+            <div class="flip-box">
+              <div class="flip-box-inner">
+                <div class="flip-box-front">
+                  <img src="../static/images/I pace SE.jpg" class="car1 card-img-top" alt="..." height="400px"
+                    width="650px"><br>
+                  <h2 class="display-5">I-PACE SE</h2>
+                  <p class="lead">Introducing Jaguar's first all-electric performance SUV.</p>
+                </div>
+
+
+                <div class="flip-box-back">
+
+                  <div class="accordion accordion-flush wi" id="accordionFlushExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                          Powertrain--90kWh Electric
+                        </button>
+                      </h2>
+                      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                          <ul>
+                            <b>
+                              <li> 90 kWh Electric</li>
+                            </b>
+                            <li>90 kWh Electric 294 kW</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                          MODEL
+                        </button>
+                      </h2>
+                      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">SE</div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseThree" aria-expanded="false"
+                          aria-controls="flush-collapseThree">
+                          Specifications
+                        </button>
+                      </h2>
+                      <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                          <ul>
+                            <li> Specification highlights</li>
+                            <li> 48.26 cm (19) Style 5055, Diamond Turned with Gloss Dark Grey contrast</li>
+                            <li> Premium LED headlights with signature DRL</li>
+                            <li> Powered tailgate</li>
+                            <li> Heated, electric, power fold, memory door mirrors with approach lights and auto-dimming
+                              driver side</li>
+                            <li> 16-way heated and cooled electric front seats</li>
+                            <li> DuoLeather sport seats</li>
+                            <li> Meridian™ 3D Surround Sound System</li>
+                            <li> 3D surround camera</li>
+                            <li> Cabin air purification plus</li>
+                            <li> Pivi Pro, Click and Go integrated base unit</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+<br>
+                  <h5 class="price">Price:₹ 119.58 L <a href="https://www.jaguar.in/jaguar-range/i-pace/index.html" class="bot bt">EXPLORE THIS VEHICLE</a></h5>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 5 -->
+
+      <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+        <div class="text-bg-dark  text-center overflow-hidden">
+          <div class="my-3 p-3">
+            <div class="flip-box">
+              <div class="flip-box-inner">
+                <div class="flip-box-front">
+                  <img src="../static/images/I pace SE.jpg" class="car1 card-img-top" alt="..." height="400px"
+                    width="650px"><br>
+                  <h2 class="display-5">JAGUAR F-TYPE COUPÉ</h2>
+                  <p class="lead">Pulse quickening, pure Jaguar sports car.</p>
+                </div>
+
+
+                <div class="flip-box-back">
+
+                  <div class="accordion accordion-flush wi" id="accordionFlushExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                          Powertrain
+                        </button>
+                      </h2>
+                      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                          <ul>
+                            <li>2.0 l Petrol
+                              2.0 l 4-cylinder Petrol Automatic 221 kW AWD</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                          MODEL
+                        </button>
+                      </h2>
+                      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">JAGUAR F-TYPE COUPÉ</div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseThree" aria-expanded="false"
+                          aria-controls="flush-collapseThree">
+                          Specifications
+                        </button>
+                      </h2>
+                      <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                          <ul>
+                            <li> Specification highlights</li>
+                            <li> 48.26 cm (19) Style 5058 Diamond Turned Wheels</li>
+                            <li> Premium LED headlights with signature DRL</li>
+                            <li> Fixed Panoramic Roof</li>
+                            <li> Single-zone climate control</li>
+                            <li> 14-way driver memory front seats with rear power recline</li>
+                            <li> Meridian™ sound system</li>
+                            <li> Powered Tailgate / Boot lid</li>
+                            <li> Air Quality Sensor</li>
+                            <li> Connected Navigation Pro and Online Pack</li>
+                          </ul>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+<br>
+                  <h5 class="price">Price:₹ 98.13 L <a href="https://www.jaguar.in/jaguar-range/f-type/index.html" class="bot bt">EXPLORE THIS VEHICLE</a></h5>
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- 6 -->
+
+      <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+        <div class="bg-light  overflow-hidden" style="border:1px solid black ;">
+          <div class="my-3 p-3">
+            <div class="flip-box">
+              <div class="flip-box-inner">
+                <div class="flip-box-front">
+                  <img src="../static/images/F type covertible.jpg" class="car1 card-img-top" alt="..." height="400px"
+                    width="650px"><br>
+                  <h2 class="display-5">JAGUAR F-TYPE CONVERTIBLE</h2>
+                  <p class="lead">Pulse quickening, pure Jaguar sports car.</p>
+                </div>
+
+
+                <div class="flip-box-back">
+
+                  <div class="accordion accordion-flush wi" id="accordionFlushExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                          Powertrain
+                        </button>
+                      </h2>
+                      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                          <ul>
+                            <li>5.0 l Petrol
+                              5.0 l 8-cylinder Petrol Automatic 331 kW AWD</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                          MODEL
+                        </button>
+                      </h2>
+                      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">F‑TYPE R-DYNAMIC CONVERTIBLE</div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseThree" aria-expanded="false"
+                          aria-controls="flush-collapseThree">
+                          Specifications
+                        </button>
+                      </h2>
+                      <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                          <ul>
+                            <li> Specification highlights</li>
+                            <li> 48.26 cm (19) Style 5058 Diamond Turned Wheels</li>
+                            <li> Premium LED headlights with signature DRL</li>
+                            <li> Fixed Panoramic Roof</li>
+                            <li> Single-zone climate control</li>
+                            <li> 14-way driver memory front seats with rear power recline</li>
+                            <li> Meridian™ sound system</li>
+                            <li> Powered Tailgate / Boot lid</li>
+                            <li> Air Quality Sensor</li>
+                            <li> Connected Navigation Pro and Online Pack</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+<br>
+                  <h5 class="price">Price:₹ 153.03 L <a href="https://www.jaguar.in/jaguar-range/f-type/index.html" class="bot bt">EXPLORE THIS VEHICLE</a></h5>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div><br><br>
+    <hr>
+    <!-- highlights  -->
+    <h1 class="find" id="explore">FIND OUT MORE</h1>
+    <br>
+    <div class="containers">
+
+      <input type="radio" name="dot" id="one">
+      <input type="radio" name="dot" id="two">
+      <div class="main-card">
+        <div class="sliders">
+          <div class="slider">
+            <div class="content">
+              <div class="img">
+                <img src="../static/images/electric.jpg" alt="Semiconductor">
+              </div>
+              <div class="details">
+                <div class="card-body">
+                  <h5 class="card-title">GOING ELECTRIC WITH JAGUAR</h5>
+                  <p class="card-text">Experience Jaguar's World of Electrifying Performance.</p>
+                  <a href="https://www.jaguar.in/electric-cars/index.html" class="btn btn-primary">FIND OUT MORE</a>
+                  <br><br>
+                  <br><br><br><br>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slider">
+            <div class="content">
+              <div class="img">
+
+                <img src="../static/images/SERVICE.jpg" alt="">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">RESERVE A SERVICE ONLINE</h5>
+                <p class="card-text">You can now reserve a service for your jaguar online.With a range of
+                  service,pricing and location options available,we've made service booking quick and easy. </p>
+                <a href="https://www.jaguar.in/ownership/service-warranties/book-service-online.html"
+                  class="btn btn-primary">FIND OUT MORE</a>
+                <br><br><br><br>
+              </div>
+            </div>
+          </div>
+          <div class="slider">
+            <div class="content">
+              <div class="img">
+                <img src="../static/images/FPace New.jpg" alt="">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">BOOKINGS OPENED FOR NEW JAGUAR F-PACE SVR:FASTER,MORE LUXURIOUS AND MORE REFINED
+                  THAN EVER. </h5>
+                <p class="card-text">Jaguar Land Rover India,today announced that the bookings have been opened for the
+                  new Jaguar F-PACE SVR in India.</p>
+                <a href="https://www.jaguar.in/news/bookings-opened-for-new-jaguar-f-pace-svr.html"
+                  class="btn btn-primary">FIND OUT MORE</a>
+              </div>
+              <br>
+            </div>
+          </div>
+        </div>
+        <div class="sliders">
+          <div class="slider">
+            <div class="content">
+              <div class="img">
+                <img src="../static/images/Jaguar of the year.jpg" alt="">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">JAGUAR'S ELECTRIC I-PACE IS GERMANY'S CAR OF THE YEAR.</h5>
+                <p class="card-text">The Jaguar I-PACE electric performance SUV has won the 2019 German Car of the Year
+                  Award. </p>
+                <a href="https://www.jaguar.in/news/IPACE-Car-of-the-Year.html" class="btn btn-primary">FIND OUT
+                  MORE</a>
+                <br><br><br>
+                <br><br>
+              </div>
+            </div>
+          </div>
+          <div class="slider">
+            <div class="content">
+              <div class="img">
+                <img src="../static/images/chennaishowroom.jpg" alt="">
+              </div>
+
+
+              <div class="card-body">
+                <h5 class="card-title">JAGUAR LAND ROVER INAUGURATES A NEW RETAILER SHOWROOM IN CHENNAI.</h5>
+                <p class="card-text">Jaguar Land Rover India today's announced the opening of a new Retailer showroom in
+                  Chennai by VST Grandeur.</p>
+                <a href="https://www.jaguar.in/news/jlr-inaugurates-a-new-retailer-showroom-in-chennai.html"
+                  class="btn btn-primary">FIND OUT MORE</a>
+                <br><br><br>
+              </div>
+            </div>
+          </div>
+
+          <div class="slider">
+            <div class="content">
+              <div class="img">
+                <img src="../static/images/Jaguar partnership with nvidia.jpg" alt="">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">JAGUAR LAND ROVER ANNOUNCES PARTNERSHIP WITH NVIDIA</h5>
+                <p class="card-text">Jaguar Land Rover has formed a multi-year strategic partnership with NVIDIA, the
+                  leader in artificial intelligence (AI) and computing, to jointly develop and deliver next-generation
+                  automated driving systems plus AI-enabled services and experiences for its customers.</p>
+                <a href="https://www.jaguar.in/news/Jaguar-land-rover-announces-partnership-with-nvidi.html"
+                  class="btn btn-primary">FIND OUT MORE</a>
+              </div>
+
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="button">
+        <label for="one" class=" active one"></label>
+        <label for="two" class="two"></label>
+      </div>
+    </div>
+    <!-- position -->
+    <a href="https://api.whatsapp.com/send?phone=918668393528&amp;text=Hi,%20I%20went%20through%20your%20website%20from%20My%20business%20and%20came%20to%20know%20about%20a%20New%20Cars%20that%20I%20am%20interested%20in.%20Need%20more%20assistance%20from%20you.%20Thank%20you"> <i class="bi msg bi-chat-dots"></i></a>
+    <a href="tel:+918668393528"><i class="bi call bi-phone"></i> </a><br>
+
+    
+
+    <!-- footer -->
+
+    <footer id="contact">
+      <div class="sect">
+        <h2 class="sec" style="font-size: 30px;">Section</h2>
+      </div>
+      <div class="sec">
+         <a class="al" href="#vehicle">Vehicles</a>
+        <br>  <a class="al" href="#feature">Feature</a>
+        <br>  <a class="al" href="https://www.findmeacar.in/pricing_pdf/jaguar-cars-price-in-india.pdf?_ga=2.66659822.1543454754.1663765427-450245648.1663765427">Purchase</a>
+        <br>  <a class="al" href="#contact">Contact Us</a>        
+        <br>  <a class="al" href="#explore">Explore</a>      
+
+      </div>
+
+
+      <div class="col-md-5 footer offset-md-1 mb-3">
+        <form>
+          <h5>
+            <h3>CONTACT US!</h3>
+          </h5>
+          <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+            <label for="newsletter1" class="visually-hidden">Email address</label>
+            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+            <button class="btn btn-primary" type="button">Subscribe</button>
+          </div>
+        </form>
+      </div>
+
+
+      <br><br><br><br><br>
+      <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+        <h3 style="font-size: 20px;">© 2022 Company, Inc. All rights reserved.</h3>
+        <div class="socio">
+          <a href="https://www.facebook.com/JaguarIndia/"><i class="bi fa bi-facebook"></i></a>
+          <a href="https://twitter.com/jaguarindia"><i class="bi tw bi-twitter"></i></a>
+          <a href="https://www.youtube.com/channel/UCU3MVTYYP82UKA9I_WDpRGw"><i class="bi yo bi-youtube"></i></a>
+          <a href="https://www.instagram.com/jaguar_india/?hl=en"><i class="bi insta bi-instagram"></i></a>
+          <a href="https://www.linkedin.com/showcase/jaguar"><i class="bi in bi-linkedin"></i></a>
+
+        </div>
+
+      </div>
+    </footer>
+
+
+
+
+</body>
+
+</html>
